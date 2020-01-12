@@ -3,7 +3,7 @@ Feature: Forms Page Validation
 Background: 
 	Given User is logged in and in CRM Home page 
 
-@SmokeTest1
+@SmokeTest
 Scenario: Create new form 
 
 	When User navigates to Forms page 

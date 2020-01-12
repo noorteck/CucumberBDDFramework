@@ -12,10 +12,12 @@
 				<artifactId>maven-surefire-plugin</artifactId>
 				<version>3.0.0-M4</version>
 				<configuration>
+
 					<includes>
 						<include>**/*Runner.java</include>
-
 					</includes>
+
+ 
 				</configuration>
 			</plugin>
 		</plugins>

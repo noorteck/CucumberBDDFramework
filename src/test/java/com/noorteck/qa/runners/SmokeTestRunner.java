@@ -15,7 +15,7 @@ import cucumber.api.junit.Cucumber;
 				"json:target/cucumber.json",
 			    "com.vimalselvam.cucumber.listener.ExtentCucumberFormatter:target/ShakeoutReport.html" }, 
 		monochrome = true, 
-		tags = {"@SmokeTest1" }
+		tags = {"@SmokeTest" }
 				)
 
 public class SmokeTestRunner {
